@@ -1,5 +1,5 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="default-kiebase-notice-rules" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.myspace.outputresults" includes="">
+  <kbase name="default-kiebase-notice-rules" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.myspace.outputresults" includes="default-kiebase-notice-output">
     <ksession name="default-stateless-ksession" type="stateless" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>
