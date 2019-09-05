@@ -1,9 +1,15 @@
 package com.myspace.noticerules;
 
 import java.lang.Number;
+import com.myspace.noticedatamodel.ActionOutput;
+import com.myspace.noticedatamodel.PPD;
 
 rule "test"
 	dialect "mvel"
 	when
+		PPD( )
 	then
+		ActionOutput fact0 = new ActionOutput();
+		fact0.setActionCode( "dfdfsdf" );
+		insert( fact0 );
 end
