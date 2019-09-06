@@ -1,0 +1,9 @@
+package com.myspace.noticerules;
+
+import java.lang.Number;
+
+rule "LG Output Rule"
+	dialect "mvel"
+	when
+	then
+end
