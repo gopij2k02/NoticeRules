@@ -1,2 +1,3 @@
 package com.myspace.noticerules;
 
+global java.util.List actionOutputList;
