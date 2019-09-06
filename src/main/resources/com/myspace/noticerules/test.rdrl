@@ -10,6 +10,6 @@ rule "test"
 		$c : PPD( )
 	then
 		modify( $c ) {
-				setOutputActionCode( "abc" )
+				setSpecialCategory( "abc" )
 		}
 end
