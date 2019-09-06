@@ -4,7 +4,7 @@ import java.lang.Number;
 import com.myspace.noticedatamodel.ActionOutput;
 import com.myspace.noticedatamodel.PPD;
 
-rule "test"
+rule "Action Output Rule"
 	dialect "mvel"
 	when
 		a : ActionOutput( )
