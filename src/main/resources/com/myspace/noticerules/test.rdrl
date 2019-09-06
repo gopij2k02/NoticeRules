@@ -7,9 +7,9 @@ import com.myspace.noticedatamodel.PPD;
 rule "test"
 	dialect "mvel"
 	when
-		PPD( )
+		$c : PPD( )
 	then
-		ActionOutput fact0 = new ActionOutput();
-		fact0.setActionCode( "dfdfsdf" );
-		insert( fact0 );
+		modify( $c ) {
+				setOutputActionCode( "abc" )
+		}
 end
