@@ -1,9 +1,12 @@
 package com.myspace.noticerules;
 
 import java.lang.Number;
+import com.myspace.noticedatamodel.LetterGreetingOutput;
 
 rule "LG Output Rule"
 	dialect "mvel"
 	when
+		$lg : LetterGreetingOutput( )
 	then
+		lgOutputResult.add($lg)
 end
