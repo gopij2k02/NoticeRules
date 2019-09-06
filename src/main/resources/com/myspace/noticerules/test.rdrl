@@ -7,9 +7,9 @@ import com.myspace.noticedatamodel.PPD;
 rule "test"
 	dialect "mvel"
 	when
-		$c : PPD( )
+		a : ActionOutput( )
 	then
-		modify( $c ) {
-				setSpecialCategory( "abc" )
+		modify( a ) {
+				setActionCode( "xyz" )
 		}
 end
