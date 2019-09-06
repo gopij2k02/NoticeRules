@@ -8,5 +8,5 @@ rule "LG Output Rule"
 	when
 		$lg : LetterGreetingOutput( )
 	then
-		lgOutputResult.add($lg)
+		lgOutputList.add($lg)
 end
