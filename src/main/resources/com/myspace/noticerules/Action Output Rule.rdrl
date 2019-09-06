@@ -7,9 +7,7 @@ import com.myspace.noticedatamodel.PPD;
 rule "Action Output Rule"
 	dialect "mvel"
 	when
-		a : ActionOutput( )
+		$a : ActionOutput( )
 	then
-		modify( a ) {
-				setActionCode( "xyz" )
-		}
+		actionOutputList.add($a)
 end
