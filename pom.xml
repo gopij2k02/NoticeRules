@@ -47,18 +47,6 @@
     </dependency>
     <dependency>
       <groupId>com.myspace</groupId>
-      <artifactId>NoticeDataModel</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.myspace</groupId>
-      <artifactId>OutputResults</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.myspace</groupId>
       <artifactId>NoticeActionRules</artifactId>
       <version>1.0.0-SNAPSHOT</version>
       <scope>compile</scope>
